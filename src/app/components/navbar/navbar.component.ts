@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  img = "https://www.pngkey.com/png/full/334-3347576_parking-transportation-yale-logo-hd.png";
+
   constructor() { }
 
   ngOnInit(): void {
