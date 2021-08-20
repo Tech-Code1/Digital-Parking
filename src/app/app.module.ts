@@ -4,19 +4,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ListParkingComponent } from './components/list-parking/list-parking.component';
-import { ViewParkingComponent } from './components/view-parking/view-parking.component';
+import { ViewCarComponent } from './components/view-car/view-car.component';
 import { AddEditParkingComponent } from './components/add-edit-parking/add-edit-parking.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     ListParkingComponent,
-    ViewParkingComponent,
+    ViewCarComponent,
     AddEditParkingComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
