@@ -1,1 +1,14 @@
-<p>add-edit-parking works!</p>
+<h3 class="mt-3">Ingresar Carro</h3>
+<form action="" [formGroup]="addCar" (ngSubmit)="add()">
+  <div class="mb-3">
+    <label for="placa" class="form-label">Placa</label>
+    <input
+      formControlName="placa"
+      type="text"
+      class="form-control"
+      id="placa"
+    />
+  </div>
+  <button class="btn btn-primary float-end" type="submit">Aceptar</button>
+  <button routerLink="/" class="btn btn-secondary" type="button">Volver</button>
+</form>
